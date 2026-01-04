@@ -112,7 +112,7 @@ function App() {
       {/* AI Credits Footer */}
       <div className="fixed bottom-2 w-full text-center pointer-events-none z-40 animate-in fade-in duration-1000 delay-500">
         <p className="text-[10px] font-mono text-gray-400 uppercase tracking-widest">
-          Build Using AI (gemini-3-pro & Sonnet-4.5)
+          Built Using AI (gemini-3-pro & Sonnet-4.5)
         </p>
       </div>
 
