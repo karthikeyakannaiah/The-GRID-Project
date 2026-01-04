@@ -1,6 +1,9 @@
 # Netlify Build Configuration for GRID.OS
 
 [build]
+  # Base directory - where the app code is located
+  base = "grid-app"
+  
   # Build command - TypeScript compilation + Vite build
   command = "npm run build"
   
