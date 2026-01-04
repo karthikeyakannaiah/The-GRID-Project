@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@theme {
+  --color-canvas: #fdfbf7;
+  --color-ink: #111111;
+  --color-accent: #ff4500;
+  
+  /* Re-declare custom border width if needed, but standard classes usually suffice. 
+     User wanted border-2 by default maybe? 
+     For now, let's fix colors first. */
+}
+
+/* 
+   In Tailwind v4, we don't need @tailwind directives.
+   @import "tailwindcss" includes everything.
+*/
+
+@layer base {
+  body {
+    background-color: var(--color-canvas);
+    color: var(--color-ink);
+  }
+}
