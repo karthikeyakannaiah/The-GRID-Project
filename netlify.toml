@@ -7,7 +7,7 @@
   # Build command - TypeScript compilation + Vite build
   command = "npm run build"
   
-  # Output directory - Vite builds to 'dist' by default
+  # Output directory - Vite builds to 'dist' by default (relative to base)
   publish = "dist"
   
   # Node version

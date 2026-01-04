@@ -18,7 +18,7 @@ interface TaskState {
 
 export const useTaskStore = create<TaskState>()(
   persist(
-    (set, get) => ({
+    (set) => ({
       tasks: [],
       archivedTasks: [],
       addTask: (title, tags = [], dueDate, quadrant = 'inbox') =>
