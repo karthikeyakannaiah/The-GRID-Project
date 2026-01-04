@@ -37,25 +37,25 @@ export function CreateTaskModal({ isOpen, onClose, initialTitle = '' }: CreateTa
   const quadrants = [
     { 
       id: 'q1' as Quadrant, 
-      label: 'Q1: Urgent & Important', 
+      label: 'Urgent & Important', 
       color: 'bg-red-500 hover:bg-red-600',
       description: 'Do First'
     },
     { 
       id: 'q2' as Quadrant, 
-      label: 'Q2: Not Urgent & Important', 
+      label: 'Not Urgent & Important', 
       color: 'bg-blue-500 hover:bg-blue-600',
       description: 'Schedule'
     },
     { 
       id: 'q3' as Quadrant, 
-      label: 'Q3: Urgent & Not Important', 
+      label: 'Urgent & Not Important', 
       color: 'bg-yellow-500 hover:bg-yellow-600',
       description: 'Delegate'
     },
     { 
       id: 'q4' as Quadrant, 
-      label: 'Q4: Not Urgent & Not Important', 
+      label: 'Not Urgent & Not Important', 
       color: 'bg-green-500 hover:bg-green-600',
       description: 'Eliminate'
     },

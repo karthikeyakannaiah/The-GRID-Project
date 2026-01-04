@@ -111,23 +111,23 @@ export function MatrixView() {
         <div className="lg:col-span-3 grid grid-cols-1 md:grid-cols-2 gap-6 h-full">
           <QuadrantContainer 
             id="q1" 
-            title="Q1: Do First (Urgent & Important)" 
+            title="Urgent & Important" 
             tasks={q1Tasks} 
             headerClassName="bg-accent text-white border-accent"
           />
           <QuadrantContainer 
             id="q2" 
-            title="Q2: Schedule (Important, Not Urgent)" 
+            title="Important, Not Urgent" 
             tasks={q2Tasks} 
           />
           <QuadrantContainer 
             id="q3" 
-            title="Q3: Delegate (Urgent, Not Important)" 
+            title="Urgent, Not Important" 
             tasks={q3Tasks} 
           />
           <QuadrantContainer 
             id="q4" 
-            title="Q4: Eliminate (Neither)" 
+            title="Not Important, Not Urgent" 
             tasks={q4Tasks} 
           />
         </div>

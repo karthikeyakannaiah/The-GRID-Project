@@ -62,7 +62,7 @@ function App() {
               "font-mono text-sm text-gray-500 uppercase tracking-widest transition-all duration-500",
               activeTab === 'plan' ? "opacity-100 h-auto" : "opacity-0 h-0 overflow-hidden"
             )}>
-              System v2.0 // Ready
+              Productivity System
             </p>
           </div>
 
@@ -112,7 +112,7 @@ function App() {
       {/* AI Credits Footer */}
       <div className="fixed bottom-2 w-full text-center pointer-events-none z-40 animate-in fade-in duration-1000 delay-500">
         <p className="text-[10px] font-mono text-gray-400 uppercase tracking-widest">
-          Powered by AI (gemini-3-pro)
+          Build Using AI (gemini-3-pro & Sonnet-4.5)
         </p>
       </div>
 
